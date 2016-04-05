@@ -14,6 +14,7 @@ SAMtools - http://samtools.sourceforge.net
 Example commands
 ----------------
 
+```
 # Move to directory "example"
 cd example
 
@@ -35,3 +36,4 @@ samtools index BCR_ABL1.sorted.bam
 
 # Fusion frequency estimation
 ../fusion.frequency.sh human_g1k_v37.fasta BCR_ABL1.fusion.txt BCR_ABL1 100 BCR_ABL1.fastq.gz
+```
