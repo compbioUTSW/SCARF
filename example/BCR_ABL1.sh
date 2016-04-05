@@ -1,20 +1,5 @@
-Requirements
-------------
-
-Perl - http://www.perl.org
-BioPerl - http://www.bioperl.org/wiki/Main_Page
-Blat - http://genome.ucsc.edu/FAQ/FAQblat.html#blat3
-BWA - http://bio-bwa.sourceforge.net
-SAMtools - http://samtools.sourceforge.net
-
-Example commands
-----------------
-
-# Move to directory "example"
-cd example
-
 # Download human genome sequence and build the index
-# - You can replace this step with using your prebuilt human genome index.
+# - You can replace this step with your prebuilt human genome index.
 wget ftp-trace.ncbi.nih.gov:/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.gz
 gzip -d human_g1k_v37.fasta.gz
 bwa index human_g1k_v37.fasta
