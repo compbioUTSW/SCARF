@@ -1,6 +1,6 @@
 # Download human genome sequence and build the index
 # - You can replace this step with your prebuilt human genome index.
-wget http://ftp-trace.ncbi.nih.gov:/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.gz
+wget ftp-trace.ncbi.nih.gov:/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.gz
 gzip -d human_g1k_v37.fasta.gz
 bwa index human_g1k_v37.fasta
 
