@@ -1,3 +1,11 @@
+Description
+-----------
+This folder contains scripts that can be used to detect structural variants such as inter- or intra-chromosomal translocations, which may generate abnormal fusion transcripts, from exome-sequencing data and esitmate their frequency.  
+
+A pictorial description of the workflow can be found in [workflow.pdf](https://github.com/compbioUTSW/fusion/blob/master/workflow.pdf), and a synthetically generated toy example is also provided as [BCR_ABL1.fastq.gz](https://github.com/compbioUTSW/fusion/blob/master/example/BCR_ABL1.fastq.gz).  
+
+For further questions please contact [@jiwoongbio](https://github.com/jiwoongbio).
+
 Requirements
 ------------
 
@@ -13,7 +21,6 @@ SAMtools - http://samtools.sourceforge.net
 
 Example commands
 ----------------
-
 ```
 # Move to directory "example"
 cd example
@@ -37,3 +44,4 @@ samtools index BCR_ABL1.sorted.bam
 # Fusion frequency estimation
 ../fusion.frequency.sh human_g1k_v37.fasta BCR_ABL1.fusion.txt BCR_ABL1 100 BCR_ABL1.fastq.gz
 ```
+
