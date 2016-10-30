@@ -46,7 +46,7 @@ samtools index BCR_ABL1.sorted.bam
 ```
 
 Citation
-----------------
+--------
 A novel TP53-KPNA3 translocation defines a de novo treatment-resistant clone in osteosarcoma.
 Cold Spring Harbor molecular case studies. 2016 Sep;2(5):a000992.
 http://molecularcasestudies.cshlp.org/content/2/5/a000992.full
